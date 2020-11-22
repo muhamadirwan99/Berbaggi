@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-.container{
+.header{
     width: auto;
     height: auto;
     background-color: #F7F7F7;
@@ -57,5 +57,44 @@ nav{
     padding-top: 24px;
 }
 
+.column-texthead{
+    height: fit-content;
+    width: fit-content;
+    margin: 45px auto;
+    text-align: center;
+}
 
+.textmid{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    color: #2C537F;
+    margin-bottom: 45px;
+}
 
+.box-quotes{
+    height: fit-content;
+    width: fit-content;
+    margin: 45px auto;
+    text-align: center;
+}
+
+.textp-mid{
+    width: 522px;
+    height: 81px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #888888;
+}
+
+.btn-blue{
+    height: 48px;
+    width: 316px;
+    border-radius: 10px;
+    background-color: #2CC1D7;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    border: 0;
+}
