@@ -151,7 +151,7 @@ section.content-top{
     line-height: 27px;
     color: #888888;
 }
-/*Login*/
+/*Register1*/
 .logo {
     width: 362.86px;
     height: 84px;
@@ -199,15 +199,94 @@ section.content-top{
     background-color: #2C537F;
     font-family: roboto;
     color: #ffffff;
+    border: 1px solid #2C537F;
 
 }
 .texttanya {
-    margin-left:587px;
+    margin-left:567px;
     margin-top:30px;
     color:#888888;
     font-size: 18px;
-    font-family: bold;    
+    font-family: bold; 
+
+}
+.texttanya b{
+    border-bottom: 1px solid #888888; 
 }
 .masuk{
     font-style: bold;
+}
+.form i {
+    position:absolute;
+    width: 27px;
+    height: 27px;
+    left:525px; 
+    color:#4F4F4F;
+}
+.fa-user{
+    top:199px;
+}
+.fa-unlock-alt{
+    top:269px;
+}
+.fa-envelope{
+    top:335px;
+}
+.copyrightr1{
+    margin-left: 590px;
+    margin-top: 100px;
+    font-size: 12px;
+    font-family: roboto;
+    color: #888888;
+    width: 512px;
+    height: 18px;
+}
+
+
+/*Register2*/
+.text1{
+    margin-left: 576px;
+    margin-top: 40px;
+    color: #4F4F4F;
+    font-family: roboto;
+    font-size:18px;
+    width: 289px;
+    height: 21px;
+}
+.text2{
+    margin-left: 606px;
+    margin-top: 10px;
+    color: #2C537F;
+    font-family: roboto;
+    font-size:18px;
+    width: 228px;
+    height: 20px;
+}
+.text3{
+    margin-left: 520px;
+    margin-top: 20px;
+    color: #4F4F4F;
+    font-family: roboto;
+    font-size:18px;
+    width: 400px;
+    height: 21px;
+}
+.btn-masuk{
+    margin-left: 515px;
+    margin-top: 130px;
+    color: #ffffff;
+    width: 410px;
+    height: 48px;
+    border-radius: 10px;
+    background-color:#2C537F;
+    border: 1px solid #2C537F;
+}
+.copyrightr2{
+    margin-left: 590px;
+    margin-top: 125px;
+    font-size: 12px;
+    font-family: roboto;
+    color: #888888;
+    width: 512px;
+    height: 18px;
 }
