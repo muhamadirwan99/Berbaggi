@@ -151,3 +151,63 @@ section.content-top{
     line-height: 27px;
     color: #888888;
 }
+/*Login*/
+.logo {
+    width: 362.86px;
+    height: 84px;
+    margin-left: 534px;
+    margin-top:80px;
+    text-align:center;
+}
+.nama {
+    margin-left:515px;
+    margin-top:20px;
+    width: 410px;
+    height: 48px;
+    border-radius:10px;
+    border: 1px solid #2CC1D7;
+    font-size:18px;
+    padding-left:27px;
+
+}
+.password{
+    margin-left:515px;
+    margin-top:20px;
+    width: 410px;
+    height: 48px;
+    border-radius:10px;
+    border: 1px solid #2CC1D7;
+    font-size:18px;
+    padding-left: 27px;
+}
+.email{
+    margin-left:515px;
+    margin-top:20px;
+    width: 410px;
+    height: 48px;
+    border-radius:10px;
+    border: 1px solid #2CC1D7;
+    font-size:18px;
+    padding-left: 27px;
+}
+.btn-daftar{
+    margin-left:515px;
+    margin-top:30px;
+    width: 410px;
+    height: 48px;
+    border-radius:10px;
+    background-color: #2C537F;
+    font-family: roboto;
+    color: #ffffff;
+
+}
+.texttanya {
+    margin-left:587px;
+    margin-top:30px;
+    color:#888888;
+    font-size: 18px;
+    font-family: bold;    
+}
+.masuk{
+    font-style: bold;
+}
