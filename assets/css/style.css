@@ -342,3 +342,103 @@ section.content-main{
     width: 512px;
     height: 18px;
 }
+
+/*Pin Baru*/
+
+section.isi-pinbaru{
+    text-align: center;
+}
+
+.txt-head{
+    margin-top: 32px;
+    font-size: 48px;
+    line-height: 56px;
+    color: #2C537F;
+    font-weight: bold;
+}
+
+.txt-subhead{
+    margin-top: 32px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4F4F4F;
+}
+
+.form-pin{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.input-pin{
+    width: 410px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #2CC1D7;
+    box-sizing: border-box;
+    backdrop-filter: blur(250px);
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #888888;
+    padding-left: 52px;
+}
+
+.confirm-pin{
+    margin-top: 32px;
+    width: 410px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #2CC1D7;
+    box-sizing: border-box;
+    backdrop-filter: blur(250px);
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #888888;
+    padding-left: 52px;
+}
+
+.icon-left1{
+    position:absolute;
+    left: 492px;
+    margin-top: 10px;
+}
+
+.icon-left2{
+    position:absolute;
+    left: 492px;
+    margin-top: 42px;
+}
+
+.icon-right1{
+    position:absolute;
+    right: 492px;
+    margin-top: 10px;
+}
+
+.icon-right2{
+    position:absolute;
+    right: 492px;
+    margin-top: 42px;
+}
+
+.btn-darkblue{
+    width: 410px;
+    height: 48px;
+    background: #2C537F;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+.footer-copyright{
+    position: relative;
+    top: 130px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #888888;
+}
