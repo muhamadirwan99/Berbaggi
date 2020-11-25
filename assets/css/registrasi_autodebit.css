@@ -1,0 +1,124 @@
+/*registrasi_autodebit*/
+
+nav{
+    background-color: #F7F7F7;
+    width: 1366px;
+    height: 80px;
+}
+nav img{
+    width: 207.35px;
+    height: 48px;
+    margin-top: 0px;
+    margin-left: 48px;
+}
+nav ul img {
+    width: 80px;
+    height: 80px;
+    margin-top: 0px;
+}
+.donasi img{
+    margin-left: -180px;
+}
+.aktivitas img{
+    margin-left: -336px;
+
+}
+.akun img{
+    margin-left: -237px;
+}
+.riwayat img{
+    margin-left: 160px;
+}
+.judul h1{
+    margin-left: 500px;
+    margin-top: 2px;
+    color: #2C537F;
+    width: 441px;
+    height: 112px;
+    font-style: bold;
+    font-size: 48px;
+    font-family: roboto;
+}
+.judul p{
+    margin-top: -50px;
+    margin-left: 547px;
+    width: 346px;
+    height: 47px;
+    color: #2CC1D7;
+    font-size: 18px;
+    font-family: roboto;
+    text-align: center;
+}
+label   {
+    margin-left: 515px;
+    width: 172px;
+    height: 21px;
+    color: #4F4F4F;
+    font-size: 18px;
+    font-family: roboto;
+}
+input{
+    width: 410px;
+    height: 48px;
+    margin-left: 515px;
+   
+}
+.metode input{
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #888888;
+}
+.metode img{
+    margin-left: -400px;
+    margin-top: 10px;
+    position: absolute;
+}
+.form{
+    margin-top: 5px;
+}
+.pemberhentian{
+    margin-left: 515px;
+    margin-top: 5px;
+    width: 410px;
+    height: 39px;
+    color:#F12A65;
+    font-size: 14px;
+    font-family: roboto;
+}
+.syarat{
+    margin-left: 515px;
+    margin-top: 20px;
+    width: 410px;
+    height: 39px;
+    color:#4F4F4F;
+    font-size: 14px;
+    font-family: roboto;
+}
+.button img{
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    margin-top: 43px;
+    margin-left: -310px;
+    
+}
+.pembayaran input{
+    border: 1px solid #F2F2F2;
+}
+.kredit input{
+    border: 1px solid #2CC1D7;
+}
+.ponsel input{
+    border: 1px solid #2CC1D7;
+}
+.copyrightrautodebit{
+    margin-left: 590px;
+    margin-top: 15px;
+    width: 530px;
+    height: 18px;
+    font-size: 12px;
+    font-style: roboto;
+    color: #888888;
+}
