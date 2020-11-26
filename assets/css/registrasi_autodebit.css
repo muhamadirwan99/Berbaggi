@@ -1,36 +1,42 @@
 /*registrasi_autodebit*/
 
-nav{
-    background-color: #F7F7F7;
+nav {
+    background-color: #fafafa;
     width: 1366px;
     height: 80px;
 }
-nav img{
+
+nav img {
     width: 207.35px;
     height: 48px;
     margin-top: 0px;
     margin-left: 48px;
 }
+
 nav ul img {
     width: 80px;
     height: 80px;
     margin-top: 0px;
 }
-.donasi img{
+
+.donasi img {
     margin-left: -180px;
 }
-.aktivitas img{
-    margin-left: -330px;
 
+.aktivitas img {
+    margin-left: -330px;
 }
-.akun img{
+
+.akun img {
     margin-left: -237px;
 }
-.riwayat img{
+
+.riwayat img {
     margin-left: 160px;
 }
-.judul h1{
-    margin-left: 500px;
+
+.judul h1 {
+    margin-left: 35%;
     margin-top: 2px;
     color: #2C537F;
     width: 441px;
@@ -39,9 +45,10 @@ nav ul img {
     font-size: 48px;
     font-family: roboto;
 }
-.judul p{
-    margin-top: -50px;
-    margin-left: 547px;
+
+.judul p {
+    margin-top: -30px;
+    margin-left: 38%;
     width: 346px;
     height: 47px;
     color: #2CC1D7;
@@ -49,73 +56,85 @@ nav ul img {
     font-family: roboto;
     text-align: center;
 }
-label   {
-    margin-left: 515px;
+
+label {
+    margin-left: 36%;
+    margin-top: 20px;
     width: 172px;
     height: 21px;
     color: #4F4F4F;
     font-size: 18px;
     font-family: roboto;
 }
-input{
+
+input {
     width: 410px;
     height: 48px;
-    margin-left: 515px;
-   
+    margin-left: 36%;
+    margin-top: 10px;
 }
-.metode input{
+
+.metode input {
     background-color: #F2F2F2;
     border-radius: 5px;
     padding-left: 40px;
     font-size: 18px;
     color: #888888;
 }
-.metode img{
+
+.metode img {
     margin-left: -400px;
-    margin-top: 10px;
+    margin-top: 20px;
     position: absolute;
 }
-.form{
+
+.form {
     margin-top: 5px;
 }
-.pemberhentian{
-    margin-left: 515px;
-    margin-top: 5px;
+
+.pemberhentian {
+    margin-left: 36%;
+    margin-top: 10px;
     width: 410px;
     height: 39px;
-    color:#F12A65;
+    color: #F12A65;
     font-size: 14px;
     font-family: roboto;
 }
-.syarat{
-    margin-left: 515px;
+
+.syarat {
+    margin-left: 36%;
     margin-top: 20px;
     width: 410px;
     height: 39px;
-    color:#4F4F4F;
+    color: #4F4F4F;
     font-size: 14px;
     font-family: roboto;
 }
-.button img{
+
+.button img {
     width: 21px;
     height: 21px;
     position: absolute;
     margin-top: 43px;
     margin-left: -310px;
-    
 }
-.pembayaran input{
+
+.pembayaran input {
     border: 1px solid #F2F2F2;
 }
-.kredit input{
+
+.kredit input {
     border: 1px solid #2CC1D7;
     background-color: #ffffff;
 }
-.ponsel input{
+
+.ponsel input {
     border: 1px solid #2CC1D7;
     background-color: #ffffff;
 }
-.copyrightrautodebit{
+
+.copyrightrautodebit {
     margin-left: 590px;
     margin-top: 43px;
     width: 530px;
@@ -124,8 +143,9 @@ input{
     font-style: roboto;
     color: #888888;
 }
-.btn-daftar{
-    margin-left: 515px;
+
+.btn-daftar {
+    margin-left: 36%;
     margin-top: 0px;
     width: 410px;
     height: 48px;
@@ -138,14 +158,17 @@ input{
     color: #FFFFFF;
     border: 0px;
 }
-.button img{
+
+.button img {
     margin-top: 12px;
 }
-.nav-teks{
+
+.nav-teks {
     margin-left: 44px;
 }
-.metode .dropdown{
+
+.metode .dropdown {
     margin-left: -30px;
-    margin-top: 10px;
+    margin-top: 20px;
     position: absolute;
 }
