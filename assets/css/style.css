@@ -303,3 +303,70 @@ section.isi-pinbaru{
     color: #888888;
 }
 
+/*Aktivitas Terakhir*/
+
+.content-aktivitas_terakhir{
+    text-align: center;
+}
+
+.input-search_aktivitas{
+    width: 410px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #2CC1D7;
+    box-sizing: border-box;
+    backdrop-filter: blur(250px);
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #888888;
+    padding-left: 16px;
+}
+
+.icon-search_aktivitas{
+    position: absolute;
+    right: 483px;
+    top: 210px;
+}
+
+.history{
+    width: 410px;
+    height: 670px;
+    background: #FFFFFF;
+    border: 1px solid #2CC1D7;
+    box-sizing: border-box;
+    backdrop-filter: blur(250px);
+    border-radius: 5px;
+    margin: 24px auto;
+    padding-top: 32px;
+    padding-left: 21px;
+    padding-right: 32px;
+}
+
+.content-history{
+    display: flex;
+}
+
+.icon-content_history{
+    width: 11.77px;
+    height: 52px;
+    margin-right: 13.73px;
+    margin-top: 6px;
+}
+
+.txt-history{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4F4F4F;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.footer-aktivitas_terakhir{
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #888888;
+    margin-bottom: 28px;
+}
