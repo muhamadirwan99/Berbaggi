@@ -1,0 +1,70 @@
+.judul-kpin h1{
+	margin-left: 557px;
+	margin-top: 2px;
+	width: 327px;
+	height: 56px;
+	font-style: bold;
+    font-size: 48px;
+    font-family: roboto;
+    color: #2C537F;
+}
+.judul-kpin p{
+	margin-left: 547px;
+	color: #4F4F4F;
+	font-size: 18px;
+	font-family: roboto;
+	margin-top: 25px;
+}
+.btn-kpin{
+    margin-left: 515px;
+    margin-top: 50px;
+    width: 410px;
+    height: 48px;
+    background: #F12A65;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0px;
+
+}
+.copyrightkpin{
+    margin-left: 590px;
+    margin-top: 250px;
+    width: 530px;
+    height: 18px;
+    font-size: 12px;
+    font-style: roboto;
+    color: #888888;
+
+}
+.input-pin img{
+	margin-left: 350px;
+    position: absolute;
+}
+.form input {
+	margin-left: 515px;
+	margin-top: 20px;
+	width: 410px;
+	height: 48px;
+	background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #888888;
+    padding-left: 40px;
+    border: 1px solid #2CC1D7;
+}
+.form img {
+	position: absolute;
+	margin-left: -410px;
+	margin-top:27px;
+	padding-left: 10px;
+}
+div .icon-closeeyes{
+	position: absolute;
+	margin-left: -50px;
+	margin-top: 30px;
+
+}

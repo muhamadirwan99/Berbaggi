@@ -17,7 +17,7 @@ body .register1{
     border-radius:10px;
     border: 1px solid #2CC1D7;
     font-size:18px;
-    padding-left:27px;
+    padding-left:40px;
 
 }
 .password{
@@ -28,7 +28,10 @@ body .register1{
     border-radius:10px;
     border: 1px solid #2CC1D7;
     font-size:18px;
-    padding-left: 27px;
+    padding-left: 40px;
+}
+.form .closeeyes{
+    margin-left: 360px;
 }
 .email{
     margin-left:515px;
@@ -38,7 +41,7 @@ body .register1{
     border-radius:10px;
     border: 1px solid #2CC1D7;
     font-size:18px;
-    padding-left: 27px;
+    padding-left: 40px;
 }
 .btn-daftar{
     margin-left:515px;
@@ -70,8 +73,9 @@ body .register1{
 .masuk{
     font-style: bold;
 }
-.form i {
+.form img {
     position:absolute;
+    margin-top: 30px;
     width: 27px;
     height: 27px;
     left:525px; 

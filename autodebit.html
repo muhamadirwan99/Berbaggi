@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
- 	<head>
+	<head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Registrasi Autodebit</title>
+        <title>Autodebit</title>
 		<link rel="stylesheet" href="assets/css/style.css">
 		<link rel="stylesheet" href="assets/css/registrasi_autodebit.css">
+		<link rel="stylesheet" href="assets/css/autodebit.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     </head>
+
+
 <body>
 	<header class="header">
 		<nav>
@@ -36,43 +39,49 @@
 			</div>
 		</nav>
 	</header>
-	
+
 	<section class="content-autodebit">
-		<div class="judul">
-			<h1>Registrasi Autodebit</h1>
-			<p>Pastikan kamu telah mengaktifkan layanan <br> <b>Internet/Mobile Banking</b></p>
+		<div class="judul-autodebit">
+			<h1>AUTODEBIT</h1>
 		</div>
 		<div class="form">
-			<div class="metode">
-				<div class="pembayaran">
+			<div class="autodebit">
+				<div class="m-pembayaran">
 					<label>Metode Pembayaran</label> <br>
-					<input type="text"><img src="assets/img/bni.png">
+					<input type="text" placeholder="Rp. 50.000">
+				</div>
+				<div class="interval-waktu">
+					<label>Interval Waktu Pembayaran</label> <br>
+					<input type="text" placeholder="Bulanan">
 					<img class="dropdown" src="assets/img/dropdown.png">
 				</div>
-				<div class="kredit">
-					<label>Nomor Kartu Kredit</label><br>
-					<input type="text" placeholder="1945"><img src="assets/img/kartu.png">
+				<div class="tgl-pendebitan">
+					<label>Tanggal Pendebitan</label> <br>
+					<input type="text" placeholder="17">
+					<img class="dropdown" src="assets/img/dropdown.png">
 				</div>
-				<div class="ponsel">
-					<label>Nomor Ponsel</label><br>
-					<input type="" placeholder="+6289506651503"><img src="assets/img/telp.png">
+				<div class="metode-autodebit">
+					<label>Metode Autodebit</label> <br>
+					<input type="text" placeholder="Otomatis">
+					<img class="dropdown" src="assets/img/dropdown.png">
 				</div>
 			</div>
 		</div>
-		<div class="pemberhentian">
-			<p>Pemberhentian autodebit hanya dapat dilakukan melalui layanan <br>Internet/Mobile Banking pengguna</p>
+		<div class="manual">
+			<p>Apabila kamu memilih manual, maka kamu akan
+			mendapatkan notifikasi untuk menekan tombol donasi
+			pada setiap tanggal yang telah kamu tentukan</p>
 		</div>
-		<div class="syarat">
-			<p>Dengan menekan tombol di bawah,
-			Kamu menyetujui <b>Syarat & Ketentuan</b> Debit Instant</p>
+		<div class="info-donasi">
+			<p>Berdasarkan dari data di atas, kamu akan memberikan
+			donasi sebesar <b>Rp. 50.000</b> pada setiap tanggal <b>17</b></p>
 		</div>
 		<div class="button">
-				<button class="btn-daftar">Registrasi Autodebit</button><img src="assets/img/verifikasi.png">
+				<button class="btn-daftar">Mulai Donasi</button>
 		</div>
-		<div class="copyrightrautodebit">
+		<div class="copyrightautodebit">
 				<p>Copyright © 2020 Berbaggi. All rights reserved</p>
 		</div>
-	</section>
 
 </body>
 </html>

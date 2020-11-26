@@ -20,7 +20,7 @@ nav ul img {
     margin-left: -180px;
 }
 .aktivitas img{
-    margin-left: -336px;
+    margin-left: -330px;
 
 }
 .akun img{
@@ -109,16 +109,43 @@ input{
 }
 .kredit input{
     border: 1px solid #2CC1D7;
+    background-color: #ffffff;
 }
 .ponsel input{
     border: 1px solid #2CC1D7;
+    background-color: #ffffff;
 }
 .copyrightrautodebit{
     margin-left: 590px;
-    margin-top: 15px;
+    margin-top: 43px;
     width: 530px;
     height: 18px;
     font-size: 12px;
     font-style: roboto;
     color: #888888;
+}
+.btn-daftar{
+    margin-left: 515px;
+    margin-top: 0px;
+    width: 410px;
+    height: 48px;
+    background: #2C537F;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0px;
+}
+.button img{
+    margin-top: 12px;
+}
+.nav-teks{
+    margin-left: 44px;
+}
+.metode .dropdown{
+    margin-left: -30px;
+    margin-top: 10px;
+    position: absolute;
 }

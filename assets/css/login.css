@@ -1,18 +1,44 @@
-.form i {
+.logo {
+    width: 362.86px;
+    height: 84px;
+    margin-left: 534px;
+    margin-top:80px;
+    text-align:center;
+}
+.password{
+    margin-left:515px;
+    margin-top:20px;
+    width: 383px;
+    height: 48px;
+    border-radius:10px;
+    border: 1px solid #2CC1D7;
+    font-size:18px;
+    padding-left: 40px;
+}
+.email{
+    margin-left:515px;
+    margin-top:20px;
+    width: 383px;
+    height: 48px;
+    border-radius:10px;
+    border: 1px solid #2CC1D7;
+    font-size:18px;
+    padding-left: 40px;
+}
+
+.form img {
     position:absolute;
     width: 27px;
     height: 27px;
     left:525px; 
-    color:#4F4F4F;
+    margin-top: 32px;
+    margin-left: 5px;
 }
-.fa-eye-slash {
-    margin-left:365px;
-    margin-top: 35px;
+.form .closeeyes{
+    margin-left:380px;
+    margin-top: 33px;
 }
-#envelope-login{
-    margin-top: -135px;
 
-}
 .lupa-password{
     margin-left: 705px;
     margin-top: 5px;
@@ -22,7 +48,7 @@
 }
 .btn-masuklogin{
     margin-left: 515px;
-    margin-top: 10px;
+    margin-top: 0px;
     width: 410px;
     height: 48px;
     background: #2C537F;
