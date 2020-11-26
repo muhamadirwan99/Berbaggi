@@ -41,9 +41,9 @@ nav ul img {
     margin-left: 160px;
 }
 
-.judul h1 {
-    margin-left: 35%;
-    margin-top: 2px;
+.judul-donatur h1 {
+    margin-left: 39.5%;
+    margin-top: 20px;
     color: #2C537F;
     width: 441px;
     height: 112px;
@@ -52,12 +52,17 @@ nav ul img {
     font-family: roboto;
 }
 
-.judul p {
-    margin-top: -30px;
+.judul-donatur img {
+    margin-left: 34%
+}
+
+.selamat {
+    margin-top: 40px;
+    margin-bottom: 40px;
     margin-left: 38%;
     width: 346px;
     height: 47px;
-    color: #2CC1D7;
+    color: #4f4f4f;
     font-size: 18px;
     font-family: roboto;
     text-align: center;
@@ -81,22 +86,22 @@ input {
     margin-bottom: 20px;
 }
 
-.metode input {
-    background-color: #F2F2F2;
-    border-radius: 5px;
-    padding-left: 40px;
-    font-size: 18px;
-    color: #888888;
-}
-
-.metode img {
-    margin-left: -400px;
-    margin-top: 20px;
-    position: absolute;
-}
-
 .form {
     margin-top: 10px;
+}
+
+.form input {
+    border: 1px solid #2CC1D7;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.metode input {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #888888;
 }
 
 .pemberhentian {
@@ -127,22 +132,7 @@ input {
     margin-left: -310px;
 }
 
-.pembayaran input {
-    border: 1px solid #F2F2F2;
-    box-shadow: 0px 1px 3px rgba(189, 189, 189, 0.6);
-}
-
-.kredit input {
-    border: 1px solid #2CC1D7;
-    background-color: #ffffff;
-}
-
-.ponsel input {
-    border: 1px solid #2CC1D7;
-    background-color: #ffffff;
-}
-
-.copyrightrautodebit {
+.copyright {
     margin-left: 42%;
     margin-top: 43px;
     width: 530px;
