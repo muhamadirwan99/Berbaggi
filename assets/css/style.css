@@ -1,28 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-
-*{
+* {
     font-family: "Roboto";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     background-color: #FAFAFA;
 }
-.header{
+
+.header {
     width: auto;
     height: auto;
     background-color: #F7F7F7;
     color: #BDBDBD;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.kiri{
+.kiri {
     margin-left: 48px;
     width: 475px;
     display: flex;
@@ -30,7 +31,7 @@ nav{
     align-items: center;
 }
 
-.kanan{
+.kanan {
     margin-right: 40px;
     width: 175px;
     display: flex;
@@ -38,35 +39,35 @@ nav{
     align-items: center;
 }
 
-.nav-logo{
+.nav-logo {
     margin-top: 15px;
 }
 
-.nav-icon{
+.nav-icon {
     width: 24px;
     height: 24px;
 }
 
-.nav-teks{
+.nav-teks {
     font-size: 12px;
     line-height: 14px;
 }
 
-.nav-bundle{
+.nav-bundle {
     width: 80px;
     height: 80px;
     text-align: center;
     padding-top: 24px;
 }
 
-.column-texthead{
+.column-texthead {
     height: fit-content;
     width: fit-content;
     margin: 45px auto;
     text-align: center;
 }
 
-.textmid{
+.textmid {
     font-size: 48px;
     line-height: 56px;
     font-weight: 700;
@@ -74,14 +75,14 @@ nav{
     margin-bottom: 45px;
 }
 
-.box-quotes{
+.box-quotes {
     height: fit-content;
     width: fit-content;
     margin: 45px auto;
     text-align: center;
 }
 
-.textp-mid{
+.textp-mid {
     width: 522px;
     height: 81px;
     font-size: 18px;
@@ -89,7 +90,7 @@ nav{
     color: #888888;
 }
 
-.btn-blue{
+.btn-blue {
     height: 48px;
     width: 316px;
     border-radius: 10px;
@@ -101,30 +102,30 @@ nav{
     border: 0;
 }
 
-section.content-top{
+section.content-top {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
-.elipseblue-righttop{
+.elipseblue-righttop {
     position: absolute;
     right: 0;
     z-index: -9999;
 }
 
-section.content-main{
+section.content-main {
     margin-top: 99px;
     margin-bottom: 65px;
 }
 
-.box-text1{
+.box-text1 {
     width: 400px;
     height: 108px;
     margin-left: 300px;
 }
 
-.text-head{
+.text-head {
     font-size: 36px;
     line-height: 42px;
     font-weight: bold;
@@ -132,30 +133,30 @@ section.content-main{
     margin-bottom: 11px;
 }
 
-.text-p{
+.text-p {
     font-size: 18px;
     line-height: 27px;
     color: #888888;
 }
 
-.bold-red{
+.bold-red {
     color: #F12A65;
 }
 
-.bold-blue{
+.bold-blue {
     color: #2CC1D7;
 }
 
-.bold-darkblue{
+.bold-darkblue {
     color: #2C537F;
 }
 
-.box-text2{
+.box-text2 {
     margin-top: 96px;
     margin-left: 741px;
 }
 
-.sumber{
+.sumber {
     margin-top: 6px;
     margin-left: 144px;
     font-style: italic;
@@ -165,18 +166,17 @@ section.content-main{
     color: #888888;
 }
 
-.box-text3{
+.box-text3 {
     margin-top: 96px;
     margin-left: 300px;
-
 }
 
-.box-ilustrasi{
+.box-ilustrasi {
     width: max-content;
-    margin: 138px auto;    
+    margin: 138px auto;
 }
 
-.text-head-ilustrasi{
+.text-head-ilustrasi {
     font-size: 36px;
     line-height: 42px;
     font-weight: bold;
@@ -185,31 +185,31 @@ section.content-main{
     text-align: center;
 }
 
-.footer{
+.footer {
     color: #888888;
     text-align: center;
-    
 }
 
-.p-footer{
+.p-footer {
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 32px;
 }
 
-.p-footer2{
+.p-footer2 {
     margin-top: 64px;
     font-size: 12px;
     line-height: 18px;
 }
 
+
 /*Pin Baru*/
 
-section.isi-pinbaru{
+section.isi-pinbaru {
     text-align: center;
 }
 
-.txt-head{
+.txt-head {
     margin-top: 32px;
     font-size: 48px;
     line-height: 56px;
@@ -217,19 +217,19 @@ section.isi-pinbaru{
     font-weight: bold;
 }
 
-.txt-subhead{
+.txt-subhead {
     margin-top: 32px;
     font-size: 18px;
     line-height: 27px;
     color: #4F4F4F;
 }
 
-.form-pin{
+.form-pin {
     margin-top: 32px;
     margin-bottom: 32px;
 }
 
-.input-pin{
+.input-pin {
     width: 410px;
     height: 48px;
     background: #FFFFFF;
@@ -243,7 +243,7 @@ section.isi-pinbaru{
     padding-left: 52px;
 }
 
-.confirm-pin{
+.confirm-pin {
     margin-top: 32px;
     width: 410px;
     height: 48px;
@@ -258,31 +258,31 @@ section.isi-pinbaru{
     padding-left: 52px;
 }
 
-.icon-left1{
-    position:absolute;
+.icon-left1 {
+    position: absolute;
     left: 492px;
     margin-top: 10px;
 }
 
-.icon-left2{
-    position:absolute;
+.icon-left2 {
+    position: absolute;
     left: 492px;
     margin-top: 42px;
 }
 
-.icon-right1{
-    position:absolute;
+.icon-right1 {
+    position: absolute;
     right: 492px;
     margin-top: 10px;
 }
 
-.icon-right2{
-    position:absolute;
+.icon-right2 {
+    position: absolute;
     right: 492px;
     margin-top: 42px;
 }
 
-.btn-darkblue{
+.btn-darkblue {
     width: 410px;
     height: 48px;
     background: #2C537F;
@@ -295,7 +295,7 @@ section.isi-pinbaru{
     border: 0px;
 }
 
-.footer-copyright{
+.footer-copyright {
     position: relative;
     top: 130px;
     font-size: 12px;
@@ -303,13 +303,14 @@ section.isi-pinbaru{
     color: #888888;
 }
 
+
 /*Aktivitas Terakhir*/
 
-.content-aktivitas_terakhir{
+.content-aktivitas_terakhir {
     text-align: center;
 }
 
-.input-search_aktivitas{
+.input-search_aktivitas {
     width: 410px;
     height: 48px;
     background: #FFFFFF;
@@ -323,13 +324,13 @@ section.isi-pinbaru{
     padding-left: 16px;
 }
 
-.icon-search_aktivitas{
+.icon-search_aktivitas {
     position: absolute;
     right: 483px;
     top: 210px;
 }
 
-.history{
+.history {
     width: 410px;
     height: 670px;
     background: #FFFFFF;
@@ -343,18 +344,18 @@ section.isi-pinbaru{
     padding-right: 32px;
 }
 
-.content-history{
+.content-history {
     display: flex;
 }
 
-.icon-content_history{
+.icon-content_history {
     width: 11.77px;
     height: 52px;
     margin-right: 13.73px;
     margin-top: 6px;
 }
 
-.txt-history{
+.txt-history {
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
@@ -363,7 +364,7 @@ section.isi-pinbaru{
     margin-bottom: 24px;
 }
 
-.footer-aktivitas_terakhir{
+.footer-aktivitas_terakhir {
     margin-top: 12px;
     font-size: 12px;
     line-height: 18px;
@@ -371,9 +372,10 @@ section.isi-pinbaru{
     margin-bottom: 28px;
 }
 
+
 /*Aktivitas Terakhir*/
 
-.waktu-riwayat{
+.waktu-riwayat {
     margin: 32px auto;
     display: flex;
     width: 410px;
@@ -381,7 +383,7 @@ section.isi-pinbaru{
     justify-content: space-between;
 }
 
-.bulan-riwayat{
+.bulan-riwayat {
     width: 230px;
     height: 48px;
     background: #F2F2F2;
@@ -398,13 +400,13 @@ section.isi-pinbaru{
     justify-content: space-between;
 }
 
-.dropdown-bulan{
+.dropdown-bulan {
     width: 13.5px;
     height: 8.34px;
     margin-top: 7px;
 }
 
-.tahun-riwayat{
+.tahun-riwayat {
     width: 131px;
     height: 48px;
     background: #F2F2F2;
@@ -421,7 +423,7 @@ section.isi-pinbaru{
     justify-content: space-between;
 }
 
-.dropdown-tahun{
+.dropdown-tahun {
     width: 13.5px;
     height: 8.34px;
     margin-top: 7px;
