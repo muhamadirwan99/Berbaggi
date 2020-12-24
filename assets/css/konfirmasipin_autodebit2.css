@@ -1,0 +1,70 @@
+.judul-donatur h1{
+	margin-left: 557px;
+	margin-top: 2px;
+	width: 327px;
+	height: 56px;
+	font-style: bold;
+    font-size: 48px;
+    font-family: roboto;
+    color: #2C537F;
+}
+.judul-donatur img{
+	margin-left: 580px;
+	width: 250px;
+	height: 200px;
+
+}
+.selamat {
+	width: 370px;
+	height: 39px;
+	margin-left: 525px;
+	color: #333333;
+	font-style: roboto;
+	font-size: 14px;
+	text-align: center;
+}
+label{
+	margin-left: 515px;
+	margin-top: 20px;
+	color: #333333;
+	font-style: bold;
+	font-family: roboto;
+	font-size: 18px;
+}
+.form input {
+	margin-left: 515px;
+	margin-top: 5px;
+	width: 410px;
+	height: 48px;
+	background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #888888;
+    padding-left: 27px;
+    border: 1px solid #2CC1D7;
+}
+.btn-kpin{
+    margin-left: 515px;
+    margin-top: 50px;
+    width: 410px;
+    height: 48px;
+    background: #2C537F;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0px;
+
+}
+.copyrightkpindonatur{
+    margin-left: 590px;
+    margin-top: 45px;
+    width: 530px;
+    height: 18px;
+    font-size: 12px;
+    font-style: roboto;
+    color: #888888;
+
+}

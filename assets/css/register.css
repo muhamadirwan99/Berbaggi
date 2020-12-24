@@ -46,7 +46,6 @@ body .register1{
 .btn-daftar{
     margin-left:515px;
     margin-top:30px;
-   
     width: 410px;
     height: 48px;
     background: #2C537F;
@@ -139,6 +138,11 @@ body .register1{
     border-radius: 10px;
     background-color:#2C537F;
     border: 1px solid #2C537F;
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 18px;
+
 }
 .copyrightr2{
     margin-left: 590px;
