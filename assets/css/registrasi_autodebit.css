@@ -95,10 +95,6 @@ input {
     position: absolute;
 }
 
-.form {
-    margin-top: 10px;
-}
-
 .pemberhentian {
     margin-left: 36%;
     margin-top: 20px;
@@ -140,16 +136,6 @@ input {
 .ponsel input {
     border: 1px solid #2CC1D7;
     background-color: #ffffff;
-}
-
-.copyrightrautodebit {
-    margin-left: 42%;
-    margin-top: 43px;
-    width: 530px;
-    height: 18px;
-    font-size: 12px;
-    font-style: roboto;
-    color: #888888;
 }
 
 .btn-daftar {

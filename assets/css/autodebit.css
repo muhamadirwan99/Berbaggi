@@ -1,19 +1,7 @@
-.judul-autodebit h1 {
-    margin-left: 42%;
-    margin-top: 20px;
-    width: 211px;
-    height: 56px;
-    font-style: medium;
-    font-size: 48px;
-    font-family: roboto;
-    color: #2C537F;
-}
-
 .manual p {
     margin-left: 36%;
-    margin-top: 20px;
     width: 410px;
-    height: 39px;
+    height: auto;
     color: #888888;
     font-size: 14px;
     font-family: roboto;
@@ -23,39 +11,9 @@
     margin-left: 36%;
     margin-top: 40px;
     margin-bottom: 20px;
-    width: 405px;
-    height: 39px;
+    width: 410px;
+    height: auto;
     color: #4F4F4F;
     font-size: 14px;
     font-family: roboto;
-}
-
-.autodebit .dropdown {
-    position: absolute;
-    margin-left: -40px;
-    margin-top: 20px;
-}
-
-.autodebit input {
-    background-color: #F2F2F2;
-    border-radius: 5px;
-    padding-left: 15px;
-    font-size: 18px;
-    color: #4F4F4F;
-    border: 1px solid #F2F2F2;
-}
-
-.m-pembayaran input {
-    border: 1px solid #2CC1D7;
-    background-color: #ffffff;
-}
-
-.copyrightautodebit {
-    margin-left: 42%;
-    margin-top: 43px;
-    width: 530px;
-    height: 18px;
-    font-size: 12px;
-    font-style: roboto;
-    color: #888888;
 }

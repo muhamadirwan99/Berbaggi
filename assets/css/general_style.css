@@ -1,0 +1,124 @@
+/*Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Background color*/
+
+html {
+    background-color: #FAFAFA;
+}
+
+
+/*Headers*/
+
+.title h1 {
+    text-align: center;
+    margin-top: 32px;
+    font-style: medium;
+    font-size: 48px;
+    font-family: roboto;
+    color: #2C537F;
+}
+
+
+/*Contents*/
+
+.content {
+    margin-top: 32px;
+}
+
+
+/*Components*/
+
+
+/*Label*/
+
+label {
+    margin-left: 36%;
+    margin-top: 20px;
+    width: 172px;
+    height: 21px;
+    color: #4F4F4F;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: roboto;
+}
+
+
+/*Textfield*/
+
+input {
+    width: 410px;
+    height: 48px;
+    margin-left: 36%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.thetextfield input {
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 18px;
+    color: #888888;
+    border: 1px solid #2CC1D7;
+    background-color: #ffffff;
+}
+
+
+/*Dropdown*/
+
+.thedropdown input {
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 18px;
+    color: #4F4F4F;
+    border: 1px solid #F2F2F2;
+}
+
+
+/*Buttons*/
+
+.thebutton {
+    margin-left: 36%;
+    margin-top: 0px;
+    width: 410px;
+    height: 48px;
+    background: #2C537F;
+    border-radius: 10px;
+    font-weight: medium;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+.thedropdown .dropdown {
+    margin-left: -40px;
+    margin-bottom: 11;
+    position: absolute;
+}
+
+.thedropdown img {
+    margin-top: 20px;
+}
+
+
+/*Copyrights*/
+
+.copyrighttext {
+    text-align: center;
+    margin-top: 42px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-style: roboto;
+    color: #888888;
+}
