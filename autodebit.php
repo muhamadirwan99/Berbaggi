@@ -23,7 +23,7 @@
                     </a>
                 </div>
                 <div class="nav-bundle">
-                    <a href="registrasi_autodebit.html">
+                    <a href="registrasi_autodebit.php">
                         <img class="nav-icon" src="assets/img/icon-donasi.svg" alt="">                        
                     </a>
                     <div class="nav-teks">Donasi</div>
@@ -60,8 +60,8 @@
         <!--Form Autodebit-->
         <div class="content">
             <div class="thetextfield">
-                <label>Metode Pembayaran</label> <br>
-                <input type="text" placeholder="Rp. 50.000">
+                <label>Nominal Donasi</label> <br>
+                <input type="text" placeholder="Nominal Donasi">
             </div>
             <div class="thedropdown">
                 <label>Interval Waktu Pembayaran</label> <br>

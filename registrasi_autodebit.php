@@ -21,7 +21,7 @@
                     </a>
                 </div>
                 <div class="nav-bundle">
-                    <a href="registrasi_autodebit.html">
+                    <a href="registrasi_autodebit.php">
                         <img class="nav-icon" src="assets/img/icon-donasi.svg" alt="">                        
                     </a>
                     <div class="nav-teks">Donasi</div>
@@ -67,7 +67,7 @@
                         <?php
                                 $options = array("Direct BNI Transfer", "Direct BCA Transfer", "Kartu Credit Lainnya");
                         ?>
-                        <select class="drop_down" name="metpem">                      
+                        <select class="drop_down" name="metpem" type="submit">                      
                             <?php foreach ($options as $option): ?>
                                 <option value="<?php echo $option; ?>"selected="selected">
                                     <?php echo $option; ?>
@@ -77,11 +77,11 @@
                     </div>
                     <div class="kredit">
                         <label><b>Nomor Kartu Kredit</b></label><br>
-                        <input type="text" placeholder="1945" name="nokredit"><img src="assets/img/kartu.png">
+                        <input type="text" placeholder="Nomor Kartu Kredit" name="nokredit"><img src="assets/img/kartu.png">
                     </div>
                     <div class="ponsel">
                         <label><b>Nomor Ponsel</b></label><br>
-                        <input type="" placeholder="+6289506651503" name="noponsel"><img src="assets/img/telp.png">
+                        <input type="" placeholder="Nomor Ponsel" name="noponsel"><img src="assets/img/telp.png">
                     </div>
                 </div>
             </div>
