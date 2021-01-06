@@ -59,41 +59,46 @@
             Pastikan kamu telah mengaktifkan layanan <br> 
             <b>Internet/Mobile Banking</b> 
         </div>
-
-        <div class="form-autodebit">
-            <div class="metode">
-                <div class="pembayaran">
-                    <label><b>Metode Pembayaran</b></label> <br>
-                    <select class="drop_down" name="interval" id="">
-                        <option value="BNI">Direct BNI Transfer</option>
-                        <option value="BCA">Direct BCA Transfer</option>
-                        <option value="CC">Kartu Credit Lainnya</option>
-                    </select>
-                </div>
-                <div class="kredit">
-                    <label><b>Nomor Kartu Kredit</b></label><br>
-                    <input type="text" placeholder="1945"><img src="assets/img/kartu.png">
-                </div>
-                <div class="ponsel">
-                    <label><b>Nomor Ponsel</b></label><br>
-                    <input type="" placeholder="+6289506651503"><img src="assets/img/telp.png">
+        <form action="simpan_autodebit.php" method="POST">
+            <div class="form-autodebit">
+                <div class="metode">
+                    <div class="pembayaran">
+                        <label><b>Metode Pembayaran</b></label> <br>
+                        <?php
+                                $options = array("Direct BNI Transfer", "Direct BCA Transfer", "Kartu Credit Lainnya");
+                        ?>
+                        <select class="drop_down" name="metpem">                      
+                            <?php foreach ($options as $option): ?>
+                                <option value="<?php echo $option; ?>"selected="selected">
+                                    <?php echo $option; ?>
+                                </option>
+                            <?php endforeach; ?>
+                        </select>
+                    </div>
+                    <div class="kredit">
+                        <label><b>Nomor Kartu Kredit</b></label><br>
+                        <input type="text" placeholder="1945" name="nokredit"><img src="assets/img/kartu.png">
+                    </div>
+                    <div class="ponsel">
+                        <label><b>Nomor Ponsel</b></label><br>
+                        <input type="" placeholder="+6289506651503" name="noponsel"><img src="assets/img/telp.png">
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="pemberhentian">
-            <p>Pemberhentian autodebit hanya dapat dilakukan melalui layanan <br><b>Internet/Mobile Banking </b> pengguna</p>
-        </div>
-        <div class="syarat">
-            <p>Dengan menekan tombol di bawah, Kamu menyetujui <b>Syarat & Ketentuan</b> Debit Instant</p>
-        </div>
-        <div class="button">
-            <button class="btn-daftar">Registrasi Autodebit</button><img src="assets/img/verifikasi.png">
-        </div>
-        <div class="copyrighttext">
-            <p>Copyright © 2020 Berbaggi. All rights reserved</p>
-        </div>
-
+       
+            <div class="pemberhentian">
+                <p>Pemberhentian autodebit hanya dapat dilakukan melalui layanan <br><b>Internet/Mobile Banking </b> pengguna</p>
+            </div>
+            <div class="syarat">
+                <p>Dengan menekan tombol di bawah, Kamu menyetujui <b>Syarat & Ketentuan</b> Debit Instant</p>
+            </div>
+            <div class="button">
+                <button class="btn-daftar" type="submit" value="Regis">Registrasi Autodebit</button><img src="assets/img/verifikasi.png">
+            </div>
+            <div class="copyrighttext">
+                <p>Copyright © 2020 Berbaggi. All rights reserved</p>
+            </div>
+        </form>
     </section>
 
 </body>
