@@ -8,7 +8,7 @@ include "koneksi.php";
     $metode_debit=$_POST['metode_debit'];
 
 
-    $simpan =mysqli_query($kon, "insert into donasi values('','$jumlahdonasi','$intervalwaktu','$tanggaldebit', '$metode_debit')");
+    $simpan =mysqli_query($kon, "insert into donasi values('','$jumlahdonasi','$intervalwaktu','$tanggaldebit', '$metode_debit', NOW())");
 
     if ($simpan) {
         echo "BERHASIL";

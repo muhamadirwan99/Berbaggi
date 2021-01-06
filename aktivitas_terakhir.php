@@ -3,9 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>PIN Baru</title>
-        <link rel="stylesheet" href="/assets/css/style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <title>Aktivitas Terakhir</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        
     </head>
     <body>
         <header class="header">
@@ -46,32 +47,45 @@
             </nav>
         </header>
         
-        <section class ="isi-pinbaru">
+        <section class="content-aktivitas_terakhir">
             <div class="txt-head">
-                Buat PIN Baru
+                Aktivitas Terakhir
             </div>
-            <div class="txt-subhead">
-                PIN akan digunakan ketika kamu <br>
-                akan melakukan donasi
-            </div>
-            <div class="form-pin">
+            <form class="form-pin">
                 <div>
-                    <input class="input-pin" type="text" placeholder="Masukkan PIN">
-                    <img class="icon-left1" src="/assets/img/icon-password.svg" alt="">
-                    <img class="icon-right1" src="/assets/img/icon-closeeyes.svg" alt="">
+                    <input class="input-search_aktivitas" type="text" placeholder="Cari dalam 48 jam terakhir">
+                    <img class="icon-search_aktivitas" src="/assets/img/icon-searchdark.svg" alt="">
                 </div>
-                <div>
-                    <input class="confirm-pin" type="text" placeholder="Konfirmasi PIN">
-                    <img class="icon-left2" src="/assets/img/icon-password.svg" alt="">
-                    <img class="icon-right2" src="/assets/img/icon-closeeyes.svg" alt="">
+            </form>
+            <div class="history">
+                <div class="content-history">
+                   
+                        <?php
+                            include "koneksi.php";
+                            $no=1;
+                            $sql = mysqli_query($kon, "select * from donasi");
+                            while($tampil = mysqli_fetch_array($sql)){
+                        ?>  <div class="txt-history"> 
+                                <?php
+                                    echo "
+                                        <b> Hamba Tuhan </b> mendonasikan <b> Rp. $tampil[jumlah_donasi] </b> dengan metode
+                                        <b> $tampil[metode_debit] </b> <br>
+                                            $tampil[waktu]
+
+                                    ";
+                                    $no++ 
+                                ?>
+                            </div>
+                            <?php
+                                }
+                            ?>
+                    
                 </div>
             </div>
-            <button class="btn-darkblue">Buat Pin</button>
-            <div class="footer-copyright">
+            <div class="footer-aktivitas_terakhir">
                 Copyright © 2020 Berbaggi. All rights reserved
             </div>
         </section>
-         
     </body>
 </html>
 
