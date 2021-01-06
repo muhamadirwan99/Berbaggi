@@ -1,10 +1,148 @@
-.headtxtprof{
-    margin-top: 32px;
+.identity {
+    margin-left: 23%;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.name {
+    position: absolute;
+    display: inline-block;
+    padding-top: 6px;
+    padding-left: 28px;
+    height: auto;
+    font-size: 27px;
+    color: #333333;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.email {
+    position: absolute;
+    display: inline-block;
+    padding-top: 42px;
+    padding-left: 28px;
+    font-size: 18px;
+    height: auto;
+    color: #333333;
+    font-family: roboto;
+}
+
+.more-info {
+    padding-top: 30px;
+}
+
+.info p {
     font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #BDBDBD;
+}
+
+.desc p {
+    width: 431px;
+    padding-top: 6px;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4f4f4f;
+}
+
+
+/*Log Out*/
+
+.keluar-akun {
+    display: inline-block;
+    padding-left: 28px;
+}
+
+.icon-exit {
+    width: 27px;
+    height: 27px;
+}
+
+.text-exit {
+    position: absolute;
+    display: inline-block;
+    padding-top: 3px;
+    padding-left: 5px;
+    font-size: 18px;
+    height: auto;
+    color: #4f4f4f;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+
+/*Latest Donation*/
+
+.latest-donation {
+    padding-top: 55px;
+}
+
+.donasi-terakhir {
+    font-family: Roboto;
+    height: auto;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
-    line-height: 56px;
-    text-align: center;
     color: #2C537F;
+}
+
+.thumbnail {
+    padding-top: 24px;
+    width: 308px;
+    height: 220px;
+    margin-top: 10px;
+    border-radius: 16px;
+}
+
+.detail {
+    position: relative;
+    display: inline-block;
+    padding-left: 28px;
+    font-size: 18px;
+    color: #4f4f4f;
+}
+
+.detail-tags {
+    padding-top: 16px;
+    position: absolute;
+    display: inline-block;
+}
+
+.detail-data {
+    padding-top: 16px;
+    padding-left: 88px;
+}
+
+.detail-tanggal {
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 28px;
+    display: inline-block;
+    color: #888888;
+}
+
+
+/*Buttons*/
+
+.thebutton-blue {
+    margin-left: 36%;
+    margin-top: 0px;
+    width: 225px;
+    height: 48px;
+    background: #2CC1D7;
+    border-radius: 10px;
+    font-weight: medium;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0px;
 }
