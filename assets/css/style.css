@@ -108,6 +108,11 @@ section.content-top {
     justify-content: space-between;
 }
 
+.btn-blue a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
 .elipseblue-righttop {
     position: absolute;
     right: 0;

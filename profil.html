@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/profil.css">
     <link rel="stylesheet" href="assets/css/general_style.css">
+    <link rel="stylesheet" href="assets/css/navigation_bar.css">
+    <link rel="stylesheet" href="assets/css/profil.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
+    <!--Navigation-->
     <header class="header">
         <nav>
             <div class="kiri">
@@ -21,8 +23,13 @@
                     </a>
                 </div>
                 <div class="nav-bundle">
+<<<<<<< HEAD
                     <a href="registrasi_autodebit.php">
                         <img class="nav-icon" src="assets/img/icon-donasi.svg" alt="">                        
+=======
+                    <a href="registrasi_autodebit.html">
+                        <img class="nav-icon" src="assets/img/icon-donasi.svg" alt="">
+>>>>>>> 3f10d484bcfddfe49704565962d5263c1a6edf3f
                     </a>
                     <div class="nav-teks">Donasi</div>
                 </div>
@@ -51,49 +58,103 @@
     </header>
 
     <section class="content-profil">
-        <div class="headtxtprof">
-            Profil
+        <!--Title-->
+        <div class="title">
+            <h1>Profil</h1>
         </div>
-        
-        <div class="head2txt">
-            Pastikan kamu telah mengaktifkan layanan <br> 
-            <b>Internet/Mobile Banking</b> 
-        </div>
+        <!--Profil-->
+        <div class="content-profil">
+            <!--Avatar-Identity-->
+            <div class="identity">
+                <!--Avatar-->
+                <img src="assets/img/avatar.png" alt="Avatar" class="avatar">
+                <!--Name-->
+                <div class="name">
+                    <p>Raihan I T</p>
+                </div>
+                <!--Email-->
+                <div class="email">
+                    <p>raytumb.design@gmail.com</p>
+                </div>
+                <!--Log Out Button-->
+                <div class="keluar-akun">
+                    <a href="profil.html">
+                        <img src="assets/img/exit.svg" alt="Exit" class="icon-exit">
+                        <div class="text-exit">
+                            <p>Keluar Akun</p>
+                        </div>
+                    </a>
+                </div>
+                <!--Phone Number-->
+                <div class="more-info">
+                    <div class="info">
+                        <p>Nomor Ponsel</p>
+                    </div>
+                    <div class="desc">
+                        <p>(+62) 89506651503</p>
+                    </div>
+                </div>
+                <!--Phone Number-->
+                <div class="more-info">
+                    <div class="info">
+                        <p>Alamat</p>
+                    </div>
+                    <div class="desc">
+                        <p>Taman Sentosa Blok H, Cikarang Selatan, Kab. Bekasi, Jawa Barat</p>
+                    </div>
+                </div>
 
-        <div class="form-autodebit">
-            <div class="metode">
-                <div class="pembayaran">
-                    <label><b>Metode Pembayaran</b></label> <br>
-                    <select class="drop_down" name="interval" id="">
-                        <option value="BNI">Direct BNI Transfer</option>
-                        <option value="BCA">Direct BCA Transfer</option>
-                        <option value="CC">Kartu Credit Lainnya</option>
-                    </select>
+                <!--Latest Donation-->
+                <div class="latest-donation">
+                    <!--Title Latest Donation-->
+                    <div class="donasi-terakhir">
+                        <p>Donasi Terakhir</p>
+                    </div>
+                    <!--Thumbnail-->
+                    <img src="assets/img/latest-donation.png" alt="Thumbnail" class="thumbnail">
+                    <!--Detail-->
+                    <div class="detail">
+                        <div class="detail-desc">
+                            <p>Pengiriman donasi kepada<br>Keluarga <b>Bpk. Nama Keluarga</b></p>
+                        </div>
+                        <div class="detail-tags">
+                            <p>Pengirim
+                                <br> Tunai
+                                <br> Barang
+                                <br> Total
+                                <br>
+                                <br> Metode
+                                <br> No. Rek
+                            </p>
+                        </div>
+                        <div class="detail-data">
+                            <p>: <b>Hamba Tuhan</b>
+                                <br>: <b>Rp. 50.000</b>
+                                <br>: <b>Beras</b> (Rp. 50.000)
+                                <br>: <b>Rp. 100.000</b>
+                                <br>
+                                <br>: <b>Direct BNI Transfer</b>
+                                <br>: <b>******909</b>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="detail-tanggal">
+                        <p>20 Desember 2020</p>
+                    </div>
+
                 </div>
-                <div class="kredit">
-                    <label><b>Nomor Kartu Kredit</b></label><br>
-                    <input type="text" placeholder="1945"><img src="assets/img/kartu.png">
-                </div>
-                <div class="ponsel">
-                    <label><b>Nomor Ponsel</b></label><br>
-                    <input type="" placeholder="+6289506651503"><img src="assets/img/telp.png">
-                </div>
+            </div>
+            <!--Copyright Text-->
+            <div class="copyrighttext">
+                <p>Copyright © 2020 Berbaggi. All rights reserved</p>
             </div>
         </div>
 
-        <div class="pemberhentian">
-            <p>Pemberhentian autodebit hanya dapat dilakukan melalui layanan <br><b>Internet/Mobile Banking </b> pengguna</p>
-        </div>
-        <div class="syarat">
-            <p>Dengan menekan tombol di bawah, Kamu menyetujui <b>Syarat & Ketentuan</b> Debit Instant</p>
-        </div>
+        <!--Button-->
+        <!--Button Blue-->
         <div class="button">
-            <button class="btn-daftar">Registrasi Autodebit</button><img src="assets/img/verifikasi.png">
+            <button class="thebutton-blue">Atur Profil</button>
         </div>
-        <div class="copyrighttext">
-            <p>Copyright © 2020 Berbaggi. All rights reserved</p>
-        </div>
-
     </section>
 
 </body>

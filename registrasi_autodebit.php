@@ -59,7 +59,6 @@
             Pastikan kamu telah mengaktifkan layanan <br> 
             <b>Internet/Mobile Banking</b> 
         </div>
-
         <form action="simpan_autodebit.php" method="POST">
             <div class="form-autodebit">
                 <div class="metode">
