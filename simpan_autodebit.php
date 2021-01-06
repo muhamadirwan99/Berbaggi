@@ -10,7 +10,7 @@ include "koneksi.php";
     $simpan =mysqli_query($kon, "insert into autodebit values('','','$metpem','$nokredit','$noponsel')");
 
     if ($simpan) {
-        echo "BERHASIL";
+        echo include "autodebit.php";
             
       }
     else {
