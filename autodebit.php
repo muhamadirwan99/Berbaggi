@@ -58,20 +58,7 @@
             <h1>Autodebit</h1>
         </div>
         <!--Form Autodebit-->
-<<<<<<< HEAD
-        <div class="content">
-            <div class="thetextfield">
-                <label>Nominal Donasi</label> <br>
-                <input type="text" placeholder="Nominal Donasi">
-            </div>
-            <div class="thedropdown">
-                <label>Interval Waktu Pembayaran</label> <br>
-                <select class="drop_down" name="interval" id="">
-                    <option value="Harian">Harian</option>
-                    <option value="Bulanan">Bulanan</option>
-                    <option value="Tahunan">Tahunan</option>
-                </select>
-=======
+
         <form action="simpan_donasi.php" method="POST">
             <div class="content">
                 <div class="thetextfield">
@@ -118,7 +105,6 @@
                         <?php endforeach; ?>
                     </select>
                 </div>
->>>>>>> dc005be234b88c274e6a734ac74e53d140da02ed
             </div>
             <div class="margin32px"></div>
             <!--Paragraph-->

@@ -61,6 +61,11 @@
     padding-left: 28px;
 }
 
+.text-exit a {
+    text-decoration: none;
+    color: #4F4F4F;
+}
+
 .icon-exit {
     width: 27px;
     height: 27px;
