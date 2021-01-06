@@ -31,7 +31,7 @@
                 </div>
                 <div class="kanan">
                     <div class="nav-bundle">
-                        <a href="riwayat.html">
+                        <a href="riwayat.php">
                             <img class="nav-icon" src="assets/img/icon-riwayat.svg" alt="">
                         </a>
                         <div class="nav-teks">Riwayat</div>
@@ -88,67 +88,26 @@
 
             <div class="history">
                 <div class="content-history">
-                    <img class="icon-content_history" src="/assets/img/icon-content_history.svg" alt="">
-                    <div class="txt-history">
-                        <b> Hamba Tuhan </b> mendonasikan <b> Rp. 50.000 </b> kepada <br>
-                        <b> Bpk. Nama Keluarga </b> <br><br>
+                        <?php
+                            include "koneksi.php";
+                            $no=1;
+                            $sql = mysqli_query($kon, "select * from donasi");
+                            while($tampil = mysqli_fetch_array($sql)){
+                        ?>  <div class="txt-history"> 
+                                <?php
+                                    echo "
+                                        <b> Hamba Tuhan </b> mendonasikan <b> Rp. $tampil[jumlah_donasi] </b> dengan metode
+                                        <b> $tampil[metode_debit] </b> <br>
+                                            $tampil[waktu]
 
-                        07 Juni - 17:15 WIB
-                    </div>
-                </div>
-                <div class="content-history">
-                    <img class="icon-content_history" src="/assets/img/icon-content_history.svg" alt="">
-                    <div class="txt-history">
-                        <b> Hamba Tuhan </b> mendonasikan <b> Rp. 50.000 </b> kepada <br>
-                        <b> Bpk. Nama Keluarga </b> <br><br>
-
-                        07 Juni - 17:15 WIB
-                    </div>
-                </div>
-                <div class="content-history">
-                    <img class="icon-content_history" src="/assets/img/icon-content_history.svg" alt="">
-                    <div class="txt-history">
-                        <b> Hamba Tuhan </b> mendonasikan <b> Rp. 50.000 </b> kepada <br>
-                        <b> Bpk. Nama Keluarga </b> <br><br>
-
-                        07 Juni - 17:15 WIB
-                    </div>
-                </div>
-                <div class="content-history">
-                    <img class="icon-content_history" src="/assets/img/icon-content_history.svg" alt="">
-                    <div class="txt-history">
-                        <b> Hamba Tuhan </b> mendonasikan <b> Rp. 50.000 </b> kepada <br>
-                        <b> Bpk. Nama Keluarga </b> <br><br>
-
-                        07 Juni - 17:15 WIB
-                    </div>
-                </div>
-                <div class="content-history">
-                    <img class="icon-content_history" src="/assets/img/icon-content_history.svg" alt="">
-                    <div class="txt-history">
-                        <b> Hamba Tuhan </b> mendonasikan <b> Rp. 50.000 </b> kepada <br>
-                        <b> Bpk. Nama Keluarga </b> <br><br>
-
-                        07 Juni - 17:15 WIB
-                    </div>
-                </div>
-                <div class="content-history">
-                    <img class="icon-content_history" src="/assets/img/icon-content_history.svg" alt="">
-                    <div class="txt-history">
-                        <b> Hamba Tuhan </b> mendonasikan <b> Rp. 50.000 </b> kepada <br>
-                        <b> Bpk. Nama Keluarga </b> <br><br>
-
-                        07 Juni - 17:15 WIB
-                    </div>
-                </div>
-                <div class="content-history">
-                    <img class="icon-content_history" src="/assets/img/icon-content_history.svg" alt="">
-                    <div class="txt-history">
-                        <b> Hamba Tuhan </b> mendonasikan <b> Rp. 50.000 </b> kepada <br>
-                        <b> Bpk. Nama Keluarga </b> <br>
-
-                        <br>07 Juni - 17:15 WIB
-                    </div>
+                                    ";
+                                    $no++ 
+                                ?>
+                            </div>
+                            <?php
+                                }
+                            ?>
+                    
                 </div>
             </div>
             <div class="footer-aktivitas_terakhir">

@@ -37,7 +37,7 @@
             </div>
             <div class="kanan">
                 <div class="nav-bundle">
-                    <a href="riwayat.html">
+                    <a href="riwayat.php">
                         <img class="nav-icon" src="assets/img/icon-riwayat.svg" alt="">
                     </a>
                     <div class="nav-teks">Riwayat</div>
