@@ -29,7 +29,7 @@
                     <div class="nav-teks">Donasi</div>
                 </div>
                 <div class="nav-bundle">
-                    <a href="aktivitas_terakhir.html">
+                    <a href="aktivitas_terakhir.php">
                         <img class="nav-icon" src="assets/img/icon-search.svg" alt="">
                     </a>
                     <div class="nav-teks">Aktivitas</div>
@@ -58,6 +58,7 @@
             <h1>Autodebit</h1>
         </div>
         <!--Form Autodebit-->
+<<<<<<< HEAD
         <div class="content">
             <div class="thetextfield">
                 <label>Nominal Donasi</label> <br>
@@ -70,65 +71,71 @@
                     <option value="Bulanan">Bulanan</option>
                     <option value="Tahunan">Tahunan</option>
                 </select>
+=======
+        <form action="simpan_donasi.php" method="POST">
+            <div class="content">
+                <div class="thetextfield">
+                    <label>Jumlah Donasi</label> <br>
+                    <input type="text" placeholder="Rp. 50.000" name="jumlahdonasi">
+                </div>
+                <div class="thedropdown">
+                    <label>Interval Waktu Pembayaran</label> <br>
+                    <?php
+                        $options = array("Harian", "Bulanan", "Tahunan");
+                    ?>
+                    <select class="drop_down" name="intervalwaktu">                      
+                        <?php foreach ($options as $option): ?>
+                            <option value="<?php echo $option; ?>"selected="selected">
+                                <?php echo $option; ?>
+                            </option>
+                        <?php endforeach; ?>
+                    </select>
+                </div>
+                <div class="thedropdown">
+                    <label>Tanggal Pendebitan</label> <br>
+                    <?php
+                        $options = array("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"
+                                         , "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31");
+                    ?>
+                    <select class="drop_down" name="tanggaldebit">                      
+                        <?php foreach ($options as $option): ?>
+                            <option value="<?php echo $option; ?>"selected="selected">
+                               <?php echo $option; ?>
+                            </option>
+                        <?php endforeach; ?>
+                    </select>               
+                </div>
+                <div class="thedropdown">
+                    <label>Metode Autodebit</label> <br>
+                    <?php
+                        $options = array("Automatis", "Manual");
+                    ?>
+                    <select class="drop_down" name="metode_debit">                      
+                        <?php foreach ($options as $option): ?>
+                            <option value="<?php echo $option; ?>"selected="selected">
+                                <?php echo $option; ?>
+                            </option>
+                        <?php endforeach; ?>
+                    </select>
+                </div>
+>>>>>>> dc005be234b88c274e6a734ac74e53d140da02ed
             </div>
-            <div class="thedropdown">
-                <label>Tanggal Pendebitan</label> <br>
-                <select class="drop_down" name="tanggal" id="">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20">20</option>
-                    <option value="21">21</option>
-                    <option value="22">22</option>
-                    <option value="23">23</option>
-                    <option value="24">24</option>
-                    <option value="25">25</option>
-                    <option value="26">26</option>
-                    <option value="27">27</option>
-                    <option value="28">28</option>
-                    <option value="29">29</option>
-                    <option value="30">30</option>
-                    <option value="31">31</option>
-                </select>                
+            <div class="margin32px"></div>
+            <!--Paragraph-->
+            <div class="manual">
+                <br>
+                <p>Apabila kamu memilih manual, maka kamu akan mendapatkan notifikasi untuk menekan tombol donasi pada setiap tanggal yang telah kamu tentukan</p>
             </div>
-            <div class="thedropdown">
-                <label>Metode Autodebit</label> <br>
-                <select class="drop_down" name="metode" id="">
-                    <option value="Automatis">Automatis</option>
-                    <option value="Manual">Manual</option>
-                </select>
+     <div class="info-donasi">
+                <p>  </p>
             </div>
-        </div>
+            <div class="margin32px"></div>
 
-        <!--Paragraph-->
-        <div class="manual">
-            <p>Apabila kamu memilih manual, maka kamu akan mendapatkan notifikasi untuk menekan tombol donasi pada setiap tanggal yang telah kamu tentukan</p>
-        </div>
-        <div class="info-donasi">
-            <p>Berdasarkan dari data di atas, kamu akan memberikan donasi sebesar <b>Rp. 50.000</b> pada setiap tanggal <b>17</b></p>
-        </div>
-
-        <!--Button Confirmation-->
-        <div class="button">
-            <button class="thebutton">Mulai Donasi</button>
-        </div>
-
+            <!--Button Confirmation-->
+            <div class="button">
+                <button class="thebutton">Mulai Donasi</button>
+            </div>
+        </form>
         <!--Copyright Text-->
         <div class="copyrighttext">
             <p>Copyright © 2020 Berbaggi. All rights reserved</p>

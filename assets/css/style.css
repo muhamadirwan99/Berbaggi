@@ -350,7 +350,6 @@ section.isi-pinbaru {
 }
 
 .content-history {
-    display: flex;
 }
 
 .icon-content_history {
@@ -363,7 +362,7 @@ section.isi-pinbaru {
 .txt-history {
     font-weight: normal;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 20px;
     color: #4F4F4F;
     text-align: left;
     margin-bottom: 24px;

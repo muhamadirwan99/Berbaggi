@@ -26,7 +26,7 @@
                     <div class="nav-teks">Donasi</div>
                 </div>
                 <div class="nav-bundle">
-                    <a href="aktivitas_terakhir.html">
+                    <a href="aktivitas_terakhir.php">
                         <img class="nav-icon" src="assets/img/icon-search.svg" alt="">
                     </a>
                     <div class="nav-teks">Aktivitas</div>
