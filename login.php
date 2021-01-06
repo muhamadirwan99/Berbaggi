@@ -1,30 +1,3 @@
-<?php
-
-//include "koneksi.php";
-require "koneksi.php";
-
-
-if(isset($_POST["login"])){
-    $email=$_POST['email'];
-    $pass=$_POST['pass'];
-
-   $hasil= mysqli_query($kon,"select*from register where email='$email'");
-
-    //cek email
-    if(mysqli_num_rows($hasil)===1){
-        $row=mysqli_fetch_assoc($hasil);
-        if(password_verify($pass,$row['pass'])){
-            header("Location:index.php");
-            exit;
-            // echo include "index.php";
-            
-        }
-    }
-}
-
-?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -44,17 +17,14 @@ if(isset($_POST["login"])){
         <div class="logo">
             <img src="assets/img/logo.png" alt="">
         </div>
-
-      
-
-        <form action= "index.php" method="POST">
+        <form action="aksi_login.php" method="POST">
         <div class="form">
             <div>
                 <input class="email" type="text" placeholder="Email" name="email">
                 <img src="assets/img/akun-black.svg">
             </div>
             <div>
-                <input class="password" type="pass" placeholder="Password" name="pass">
+                <input class="password" type="password" placeholder="Password" name="pass">
                 <img src="assets/img/icon-password.svg">
                 <img class="closeeyes" src="assets/img/icon-closeeyes.svg">
             </div>
@@ -64,22 +34,23 @@ if(isset($_POST["login"])){
         </div>
 
         <div class="button">
-            <button href="https://google.com" class="btn-masuklogin" type="submit" name="login">Masuk</button>
+            <button class="btn-masuklogin" type="submit" >Masuk</button>
             <div class="akun-medsos">
                 <p>Atau masuk dengan akun:</p>
             </div>
             <div class="medsos">
-                <img src="assets/img/medsos.png">
+                <a href="https://www.google.com/?hl=id"><img src="assets/img/medsos.png"></a>
             </div>
             <div class="daftar-disini">
                 <p>Belum punya akun? <a href="register1.php">Daftar di sini</a></p>
             </div>
         </div>
+        </form>
 
         <div class="copyright">
             <p>Copyright © 2020 Berbaggi. All rights reserved</p>
         </div>
-        </form>
+        
 
     </section>
 

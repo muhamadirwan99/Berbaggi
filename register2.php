@@ -15,7 +15,7 @@
         <div class="logo">
             <img src="assets/img/logo.png" alt="">
         </div>
-        <form action="register1.php" method="POST">
+        <form action="login.php" method="POST">
         <div class="text1">
             <p>Verifikasi telah dikirim menuju email</p>
         </div>
