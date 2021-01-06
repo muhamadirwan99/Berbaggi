@@ -133,16 +133,55 @@
 /*Buttons*/
 
 .thebutton-blue {
-    margin-left: 36%;
-    margin-top: 0px;
+    position: absolute;
+    display: inline-block;
+    margin-left: 45%;
+    margin-top: -300px;
     width: 225px;
     height: 48px;
     background: #2CC1D7;
     border-radius: 10px;
-    font-weight: medium;
+    font-weight: bold;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
     color: #FFFFFF;
     border: 0px;
+    z-index: -1;
+}
+
+.thebutton-white-one {
+    position: absolute;
+    display: inline-block;
+    margin-left: 45%;
+    margin-top: -150px;
+    width: 225px;
+    height: 48px;
+    background: #F2F2F2;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #2C537F;
+    border: 0px;
+    z-index: -1;
+}
+
+.thebutton-white-two {
+    position: absolute;
+    display: inline-block;
+    margin-left: 45%;
+    margin-top: -70px;
+    width: 225px;
+    height: 48px;
+    background: #F2F2F2;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #2C537F;
+    border: 0px;
+    z-index: -1;
 }
