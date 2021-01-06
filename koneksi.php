@@ -4,8 +4,13 @@ $user="root";
 $password="";
 $db="berbaggi";
 
-$kon = mysqli_connect($host,$user,$password,$db);
-if (!$kon){
-	  die("Koneksi gagal:".mysqli_connect_error());
+$kon = mysqli_connect($host,$user,$password);
+$select= mysqli_select_db($kon,$db);
+if ($select){
+	  echo "";
 }
+else {
+	echo "Gagal koneksi";
+}
+
 ?>
