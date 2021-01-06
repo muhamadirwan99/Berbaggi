@@ -428,3 +428,18 @@ section.isi-pinbaru {
     height: 8.34px;
     margin-top: 7px;
 }
+
+.drop_down{
+    margin-left: 36%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 18px;
+    color: #4F4F4F;
+    border: 1px solid #F2F2F2;
+    width: 410px;
+    height: 48px; 
+}

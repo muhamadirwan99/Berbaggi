@@ -7,6 +7,7 @@
     <title>Registrasi Autodebit</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/registrasi_autodebit.css">
+    <link rel="stylesheet" href="assets/css/general_style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
@@ -48,8 +49,11 @@
             <div class="metode">
                 <div class="pembayaran">
                     <label><b>Metode Pembayaran</b></label> <br>
-                    <input type="text"><img src="assets/img/bni.png">
-                    <img class="dropdown" src="assets/img/dropdown.png">
+                    <select class="drop_down" name="interval" id="">
+                        <option value="BNI">Direct BNI Transfer</option>
+                        <option value="BCA">Direct BCA Transfer</option>
+                        <option value="CC">Kartu Credit Lainnya</option>
+                    </select>
                 </div>
                 <div class="kredit">
                     <label><b>Nomor Kartu Kredit</b></label><br>
@@ -70,7 +74,7 @@
         <div class="button">
             <button class="btn-daftar">Registrasi Autodebit</button><img src="assets/img/verifikasi.png">
         </div>
-        <div class="copyrightrautodebit">
+        <div class="copyrighttext">
             <p>Copyright © 2020 Berbaggi. All rights reserved</p>
         </div>
     </section>
