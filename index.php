@@ -11,30 +11,38 @@
 </head>
 
 <body>
-    <header class="header">
+<header class="header">
         <nav>
             <div class="kiri">
                 <div class="nav-logo">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="assets/img/logo.svg" alt="">
                     </a>
                 </div>
                 <div class="nav-bundle">
-                    <img class="nav-icon" src="assets/img/icon-donasi.svg" alt="">
+                    <a href="registrasi_autodebit.html">
+                        <img class="nav-icon" src="assets/img/icon-donasi.svg" alt="">                        
+                    </a>
                     <div class="nav-teks">Donasi</div>
                 </div>
                 <div class="nav-bundle">
-                    <img class="nav-icon" src="assets/img/icon-search.svg" alt="">
+                    <a href="aktivitas_terakhir.html">
+                        <img class="nav-icon" src="assets/img/icon-search.svg" alt="">
+                    </a>
                     <div class="nav-teks">Aktivitas</div>
                 </div>
             </div>
             <div class="kanan">
                 <div class="nav-bundle">
-                    <img class="nav-icon" src="assets/img/icon-riwayat.svg" alt="">
+                    <a href="riwayat.html">
+                        <img class="nav-icon" src="assets/img/icon-riwayat.svg" alt="">
+                    </a>
                     <div class="nav-teks">Riwayat</div>
                 </div>
                 <div class="nav-bundle">
-                    <img class="nav-icon" src="assets/img/icon-akun.svg" alt="">
+                    <a href="profil.html">
+                        <img class="nav-icon" src="assets/img/icon-akun.svg" alt="">
+                    </a>
                     <div class="nav-teks">Akun</div>
                 </div>
             </div>
