@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,7 +20,7 @@
                     </a>
                 </div>
                 <div class="nav-bundle">
-                    <a href="registrasi_autodebit.html">
+                    <a href="registrasi_autodebit.php">
                         <img class="nav-icon" src="assets/img/icon-donasi.svg" alt="">                        
                     </a>
                     <div class="nav-teks">Donasi</div>
@@ -62,10 +59,10 @@
                     <b>- Lailatul Fitriyah</b>
                 </p>
             </div>
-            <button class="btn-blue">Mulai Berbaggi</button>
+            <button class="btn-blue"><a href="registrasi_autodebit.php">Mulai Berbaggi</a></button>
         </div>
         <div class="elipseblue-righttop">
-            <img src="/assets/img/ellipseblue-large.svg" alt="">
+            <img src="assets/img/ellipseblue-large.svg" alt="">
         </div>
     </section>
 
@@ -103,7 +100,7 @@
                 Sekarang kamu sudah paham kan apa itu <b class="bold-darkblue">Berbaggi</b>?<br>
                 <b class="bold-grey">Yuk, mari <b class="bold-darkblue">Berbaggi</b>, peduli sesama</b>
             </p>
-            <button class="btn-blue">Mulai Berbaggi</button>
+            <button class="btn-blue"><a href="registrasi_autodebit.php">Mulai Berbaggi</a></button>
             <p class="p-footer2">
                 Apabila masih ada yang ingin kamu tanyakan, <br> kamu dapat mengunjungi halaman <b><u>Q&A</u></b>
             </p>
