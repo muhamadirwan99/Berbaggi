@@ -173,6 +173,11 @@
     z-index: -1;
 }
 
+.thebutton-white-one a{
+    text-decoration: none;
+    color: #2C537F;
+}
+
 .thebutton-white-two {
     position: absolute;
     display: inline-block;
