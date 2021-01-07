@@ -61,6 +61,11 @@
     padding-left: 28px;
 }
 
+.text-exit a {
+    text-decoration: none;
+    color: #4F4F4F;
+}
+
 .icon-exit {
     width: 27px;
     height: 27px;
@@ -166,6 +171,11 @@
     color: #2C537F;
     border: 0px;
     z-index: -1;
+}
+
+.thebutton-white-one a{
+    text-decoration: none;
+    color: #2C537F;
 }
 
 .thebutton-white-two {

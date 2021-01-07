@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang>
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PIN Baru</title>
-    <link rel="stylesheet" href="assets/css/general_style.css">
-    <link rel="stylesheet" href="assets/css/navigation_bar.css">
-    <link rel="stylesheet" href="assets/css/profil.css">
+    <title>Nama Donatur</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/registrasi_autodebit.css">
+    <link rel="stylesheet" href="assets/css/konfirmasipin_autodebit2.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
@@ -23,7 +22,7 @@
                 </div>
                 <div class="nav-bundle">
                     <a href="registrasi_autodebit.php">
-                        <img class="nav-icon" src="assets/img/icon-donasi.svg" alt="">
+                        <img class="nav-icon" src="assets/img/icon-donasi.svg" alt="">                        
                     </a>
                     <div class="nav-teks">Donasi</div>
                 </div>
@@ -42,7 +41,7 @@
                     <div class="nav-teks">Riwayat</div>
                 </div>
                 <div class="nav-bundle">
-                    <a href="profil.html">
+                    <a href="profil.php">
                         <img class="nav-icon" src="assets/img/icon-akun.svg" alt="">
                     </a>
                     <div class="nav-teks">Akun</div>
@@ -51,28 +50,27 @@
         </nav>
     </header>
 
-    <section class="isi-pinbaru">
-        <div class="txt-head">
-            Buat PIN Baru
+    <section class="content-kpin">
+        <div class="judul-donatur">
+            <h1>Nama Donatur</h1>
+            <img src="assets/img/gambar_namadonatur.svg">
         </div>
-        <div class="txt-subhead">
-            PIN akan digunakan ketika kamu <br> akan melakukan donasi
+        <div class="selamat">
+            <p>Selamat, kamu telah mengaktfikan donasi autodebit sebesar <b>Rp. 50.000</b> pada setiap tanggal <b>17</b></p>
         </div>
-        <div class="form-pin">
-            <div class="thetextfield">
-                <input class="input-pin" type="text" placeholder="Masukkan PIN">
-                <img class="icon-left1" src="/assets/img/icon-password.svg" alt="">
-                <img class="icon-right1" src="/assets/img/icon-closeeyes.svg" alt="">
-            </div>
-            <div class="thetextfield">
-                <input class="confirm-pin" type="text" placeholder="Konfirmasi PIN">
-                <img class="icon-left2" src="/assets/img/icon-password.svg" alt="">
-                <img class="icon-right2" src="/assets/img/icon-closeeyes.svg" alt="">
+
+        <div class="form">
+            <div class="metode">
+                <label><b>Nama yang ingin kamu terakan</b></label><br>
+                <input type="text" placeholder="Hamba Tuhan">
             </div>
         </div>
-        <button class="btn-darkblue">Buat Pin</button>
-        <div class="footer-copyright">
-            Copyright © 2020 Berbaggi. All rights reserved
+
+        <div class="button">
+            <button class="btn-daftar">Mulai Donasi</button>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2020 Berbaggi. All rights reserved</p>
         </div>
     </section>
 

@@ -43,7 +43,7 @@
                     <div class="nav-teks">Riwayat</div>
                 </div>
                 <div class="nav-bundle">
-                    <a href="profil.html">
+                    <a href="profil.php">
                         <img class="nav-icon" src="assets/img/icon-akun.svg" alt="">
                     </a>
                     <div class="nav-teks">Akun</div>
@@ -73,7 +73,7 @@
                 </div>
                 <!--Log Out Button-->
                 <div class="keluar-akun">
-                    <a href="login.php">
+                    <a href="profil.html">
                         <img src="assets/img/exit.svg" alt="Exit" class="icon-exit">
                         <div class="text-exit">
                             <p><a href="register1.php">Keluar Akun</a></p>
@@ -105,10 +105,10 @@
                 </div>
                 <!--Button White-->
                 <div class="button">
-                    <button class="thebutton-white-one">Ubah PIN</button>
+                    <button class="thebutton-white-one"><a href="konfirmasipin_autodebit.php">Ubah PIN</a></button>
                 </div>
                 <div class="button">
-                    <button class="thebutton-white-two">Ubah Password</button>
+                    <button class="thebutton-white-two"><a href="konfirmasipin_autodebit.php">Ubah Password</a></button>
                 </div>
 
                 <!--Latest Donation-->

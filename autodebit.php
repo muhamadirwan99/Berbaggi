@@ -43,7 +43,7 @@
                     <div class="nav-teks">Riwayat</div>
                 </div>
                 <div class="nav-bundle">
-                    <a href="profil.html">
+                    <a href="profil.php">
                         <img class="nav-icon" src="assets/img/icon-akun.svg" alt="">
                     </a>
                     <div class="nav-teks">Akun</div>
@@ -58,6 +58,7 @@
             <h1>Autodebit</h1>
         </div>
         <!--Form Autodebit-->
+
         <form action="simpan_donasi.php" method="POST">
             <div class="content">
                 <div class="thetextfield">

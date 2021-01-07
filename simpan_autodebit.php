@@ -7,14 +7,14 @@ include "koneksi.php";
     $noponsel=$_POST['noponsel'];
 
 
-    $simpan =mysqli_query($kon, "insert into autodebit values('','','$metpem','$nokredit','$noponsel')");
+    $simpan =mysqli_query($kon, "insert into autodebit values('','$metpem','$nokredit','$noponsel')");
 
     if ($simpan) {
-        echo include "autodebit.php";
-            
+    	echo include "autodebit.php";      
       }
     else {
-        echo "Gagal simpan data anggota";
+    	echo include "registrasi_autodebit.php";
+        //echo "Gagal simpan data anggota";
         
 }
 ?>
