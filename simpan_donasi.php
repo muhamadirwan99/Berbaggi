@@ -11,7 +11,7 @@ include "koneksi.php";
     $simpan =mysqli_query($kon, "insert into donasi values('','$jumlahdonasi','$intervalwaktu','$tanggaldebit', '$metode_debit', NOW())");
 
     if ($simpan) {
-        echo "BERHASIL";
+      echo include "aktivitas_terakhir.php";
             
       }
     else {
