@@ -73,10 +73,10 @@
                 </div>
                 <!--Log Out Button-->
                 <div class="keluar-akun">
-                    <a href="profil.html">
+                    <a href="login.php">
                         <img src="assets/img/exit.svg" alt="Exit" class="icon-exit">
                         <div class="text-exit">
-                            <p><a href="register1.php">Keluar Akun</a></p>
+                            <p>Keluar Akun</p>
                         </div>
                     </a>
                 </div>
